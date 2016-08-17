@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fixed">
+      <UniqueIdentifier>{cdce977f-3d60-4c40-ade4-d2f7d2bec838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{e91c1f1f-163c-4798-992e-19505e1d7d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\1_Common">
+      <UniqueIdentifier>{9d6d465a-c86b-4378-b9f2-80aa71ba71ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\2_Managers">
+      <UniqueIdentifier>{f0558bf3-1d51-4b7a-8882-bea4a9979d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Local">
+      <UniqueIdentifier>{a54ccc23-d8ca-4044-8012-f74ceef6559e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Local\3_Scenes">
+      <UniqueIdentifier>{9d426cc7-0510-4173-87cc-539c574b9372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Local\4_Shaders">
+      <UniqueIdentifier>{df0396e9-47a3-474f-b779-2fa127ce0a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Local\6_Meshes">
+      <UniqueIdentifier>{f1fc6fa5-5ff9-43a3-9b99-633e6cbd4d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\0_FX">
+      <UniqueIdentifier>{5933e275-bd33-4e46-bfa9-462280a7204e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\0_FX\PostProcessing">
+      <UniqueIdentifier>{693e6bac-0997-4ba5-a448-a19097711bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\0_FX\Effects">
+      <UniqueIdentifier>{c665a9a4-9d26-4878-8f59-02d6a4d58a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Local\5_Objects">
+      <UniqueIdentifier>{c654119a-4951-4246-89c5-e71ae7645a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Local\5_Objects\Object">
+      <UniqueIdentifier>{d5562b5d-a181-400f-bca6-d5c443f6e6e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Local\5_Objects\AI">
+      <UniqueIdentifier>{7a0dcc96-70b3-403a-9592-8a700ccc1a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{8ff60c0e-f8ee-490d-a3a5-f525212c4814}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameFramework.h">
+      <Filter>Global\1_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MyInline.h">
+      <Filter>Global\1_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Global\1_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MgrType.h">
+      <Filter>Global\2_Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Local\3_Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderType.h">
+      <Filter>Local\4_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderEssential.h">
+      <Filter>Local\4_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderList.h">
+      <Filter>Local\4_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Local\5_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshType.h">
+      <Filter>Local\6_Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Local\6_Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="GodGame.h">
+      <Filter>Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Local\4_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotList.h">
+      <Filter>Global\1_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MgrList.h">
+      <Filter>Global\2_Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMgr.h">
+      <Filter>Global\2_Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>Global\2_Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMgr.h">
+      <Filter>Global\2_Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInGame.h">
+      <Filter>Local\3_Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle.h">
+      <Filter>Local\3_Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMgr.h">
+      <Filter>Global\2_Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInfo.h">
+      <Filter>Local\5_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Local\5_Objects\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Local\5_Objects\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Local\5_Objects\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectsList.h">
+      <Filter>Local\5_Objects\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Local\5_Objects\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Evaluator.h">
+      <Filter>Local\5_Objects\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Local\5_Objects\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIWarrock.h">
+      <Filter>Local\5_Objects\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="StatePlayer.h">
+      <Filter>Local\5_Objects\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Global\2_Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectEntity.h">
+      <Filter>Local\5_Objects\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Local\5_Objects\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ParentShader.h">
+      <Filter>Local\4_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h">
+      <Filter>Global\2_Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemObject.h">
+      <Filter>Local\5_Objects\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Global\2_Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketMgr.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="ClinetMgr.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper_1_1\FW1FontWrapper.h">
+      <Filter>Global\1_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLobby.h">
+      <Filter>Local\3_Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Global\2_Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>Global\1_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Global\1_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Local\3_Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderEssential.cpp">
+      <Filter>Local\4_Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderList.cpp">
+      <Filter>Local\4_Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderType.cpp">
+      <Filter>Local\4_Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Local\5_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Local\6_Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshType.cpp">
+      <Filter>Local\6_Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMgr.cpp">
+      <Filter>Global\2_Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>Global\2_Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMgr.cpp">
+      <Filter>Global\2_Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneInGame.cpp">
+      <Filter>Local\3_Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle.cpp">
+      <Filter>Local\3_Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMgr.cpp">
+      <Filter>Global\2_Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInfo.cpp">
+      <Filter>Local\5_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Local\5_Objects\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Local\5_Objects\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Local\5_Objects\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Local\5_Objects\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Evaluator.cpp">
+      <Filter>Local\5_Objects\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIWarrock.cpp">
+      <Filter>Local\5_Objects\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="StatePlayer.cpp">
+      <Filter>Local\5_Objects\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Global\2_Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectEntity.cpp">
+      <Filter>Local\5_Objects\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Local\5_Objects\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentShader.cpp">
+      <Filter>Local\4_Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManager.cpp">
+      <Filter>Global\2_Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemObject.cpp">
+      <Filter>Local\5_Objects\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Global\2_Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketMgr.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="ClinetMgr.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLobby.cpp">
+      <Filter>Local\3_Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Global\2_Managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GodGame.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GodGame.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt">
+      <Filter>Global</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="fx\BillBoard.fx">
+      <Filter>Global\0_FX</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Common.fx">
+      <Filter>Global\0_FX</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Define.fx">
+      <Filter>Global\0_FX</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Effect.fx">
+      <Filter>Global\0_FX</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\SSAO.fx">
+      <Filter>Global\0_FX</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Particle.fx">
+      <Filter>Global\0_FX\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Final.fx">
+      <Filter>Global\0_FX\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Post.fx">
+      <Filter>Global\0_FX\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\TextureAni.fx">
+      <Filter>Global\0_FX\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Light.fx">
+      <Filter>Global\0_FX\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\PostDefine.fx">
+      <Filter>Global\0_FX\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Shadow.fx">
+      <Filter>Global\0_FX\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\BlurAndBloom.fx">
+      <Filter>Global\0_FX\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Reduce.fx">
+      <Filter>Global\0_FX\PostProcessing</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
